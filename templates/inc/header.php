@@ -1,3 +1,7 @@
+<?php
+// include_once 'config/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,5 +22,5 @@
                     <li role="presentation"><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
-            <h3 class="text-muted"><?php echo $SITE_TITLE;?></h3>
+            <h3 class="text-muted"><?php $SITE_TITLE;?></h3>
         </div>
